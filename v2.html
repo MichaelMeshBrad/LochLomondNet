@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Loch Lomond Sunday Night NET</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    background: #eef2f5;
+}
+
+/* Hero */
+.hero {
+    position: relative;
+    background: url('your-background.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 80px 20px 100px;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+}
+
+/* Layout */
+.container {
+    max-width: 1100px;
+    margin: 30px auto 40px;
+    padding: 0 20px;
+}
+
+/* Cards */
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Featured (Net Hub) */
+.featured {
+    border-left: 5px solid #0077cc;
+    background: #fafdff;
+}
+
+/* Headings */
+h2 {
+    margin-top: 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+    font-size: 1.3em;
+}
+
+/* Node highlight */
+.node-number {
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #0077cc;
+}
+
+/* Tables */
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    font-size: 0.95em;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: #f0f2f5;
+}
+
+/* Links */
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Lists */
+ul {
+    padding-left: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero {
+        padding: 60px 15px 80px;
+    }
+
+    .hero h1 {
+        font-size: 1.8em;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+    <div class="hero-content">
+        <h1>Loch Lomond Sunday Night NET</h1>
+        <p><strong>Sunday • 20:00 UK</strong></p>
+    </div>
+</div>
+
+<div class="container">
+<div class="card">
+<h2>What is a Radio Net?</h2>
+
+<p>
+A radio net is a regular on-air gathering of amateur radio operators. It provides a structured way for stations to check in, chat, share information, and practice good operating skills.
+</p>
+
+<p>
+This net takes place every Sunday evening and is open to licensed amateur radio operators using AllStar, EchoLink, and connected RF nodes.
+</p>
+
+<p>
+New to amateur radio? The 
+<a href="https://rsgb.org/main/" target="_blank">
+Radio Society of Great Britain (RSGB)
+</a> 
+is the UK’s national organisation and a great place to learn more and get started.
+</p>
+
+<p>
+<strong>Note:</strong> This is <em>not CB radio</em>. Amateur radio requires a licence issued by Ofcom, and operators use personal callsigns. It offers far greater range, flexibility, and technical capability than CB.
+</p>
+</div>
+
+<div class="card featured">
+<h2>Net Hub</h2>
+<p>
+<strong>Primary Node:</strong>
+<span class="node-number">67108</span>
+</p>
+<p>
+<a href="https://stats.allstarlink.org/stats/67108" target="_blank">
+View Node Stats
+</a>
+</p>
+</div>
+
+<div class="card">
+<h2>Linked AllStar RF Nodes</h2>
+<div class="table-wrapper">
+<table>
+<tr>
+<th>Node</th>
+<th>Callsign</th>
+<th>Frequency</th>
+<th>CTCSS</th>
+<th>Location</th>
+</tr>
+<tr><td>51359</td><td>MB7ISI</td><td>145.33750</td><td>67.0</td><td>Burra, Shetland Islands</td></tr>
+<tr><td>53937</td><td>GM5DVS</td><td>DVSPh – HUB1</td><td>—</td><td>Scotland</td></tr>
+<tr><td>563711</td><td>MM7KEL</td><td>434.5125</td><td>82.5</td><td>Clydebank</td></tr>
+<tr><td>59320</td><td>M0UKT</td><td>—</td><td>—</td><td>Tetra UK</td></tr>
+<tr><td>61353</td><td>GM4WMM</td><td>145.2875</td><td>77.0</td><td>Orkney Islands</td></tr>
+<tr><td>64460</td><td>MB7IBH</td><td>145.3375</td><td>103.5</td><td>Redburn, Alexandria UK</td></tr>
+<tr><td>64516</td><td>MB7IDQ</td><td>430.0125</td><td>103.5</td><td>Alexandria, Loch Lomond</td></tr>
+<tr><td>64664</td><td>MB7IDL</td><td>70.3875</td><td>77.0</td><td>Dalry, North Ayrshire</td></tr>
+<tr><td>64811</td><td>MB7IKB</td><td>430.025</td><td>103.5</td><td>East Kilbride</td></tr>
+<tr><td>65358</td><td>MB7IOB</td><td>145.2375</td><td>103.5</td><td>Rothesay, Isle of Bute</td></tr>
+<tr><td>68239</td><td>GM3ZDH</td><td>434.51250</td><td>82.5</td><td>Glasgow, Scotland</td></tr>
+</table>
+</div>
+</div>
+
+<div class="card">
+<h2>EchoLink Access</h2>
+<ul>
+<li>MB7IBH</li>
+<li>MB7IDQ</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>DMR Access</h2>
+<div class="table-wrapper">
+<table>
+<tr><th>Network</th><th>Talkgroup</th></tr>
+<tr><td>DVSPH</td><td>23556</td></tr>
+<tr><td>BrandMeister</td><td>23559</td></tr>
+</table>
+</div>
+</div>
+
+<div class="card">
+<h2>Other Info</h2>
+<p><strong>NetLogger:</strong> Available during operation</p>
+<p><strong>Live Stream:</strong> TikTok @MM3DDQ</p>
+<p><strong>Direct Access:</strong> Node 67108</p>
+</div>
+
+<div class="card">
+<p style="text-align:center; font-size:0.9em; color:#666;">
+73 and thanks for listening 👋
+</p>
+</div>
+
+</div>
+
+</body>
+</html>
